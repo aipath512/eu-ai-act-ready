@@ -51,6 +51,22 @@ Allow: /governance.json
 Allow: /policy.json
 Allow: /entity-graph.public.jsonld
 Allow: /ai-signals.json
+
+User-agent: *
+
+Allow: /
+
+Allow: /faq/
+Allow: /resources/
+Allow: /blog/
+Allow: /article-50
+Allow: /glossary
+
+
+Disallow: /private/
+Disallow: /admin/
+Disallow: /workspace/
+
 Allow: /ai-routes.json
 Allow: /ai-validation.json
 Allow: /signal-manifest.json
