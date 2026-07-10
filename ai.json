@@ -1,1 +1,55 @@
-vwv
+{
+  "name": "EU AI Act Ready™",
+
+  "version": "1.0",
+
+  "domain": "https://eu-ai-act-ready.eu",
+
+  "type": "AI Governance Knowledge Platform",
+
+  "description": 
+  "EU AI Act Ready™ provides AI governance knowledge, readiness resources and operational compliance infrastructure for organizations preparing for Regulation (EU) 2024/1689.",
+
+
+  "organization": {
+
+    "name": "EU AI Act Ready™",
+
+    "technology_partner": {
+      "name": "AiVenture SRL",
+      "website": "https://aiventure.ro",
+      "category": "AI Delivery Infrastructure"
+    }
+
+  },
+
+
+  "main_topics": [
+
+    "EU AI Act",
+    "AI Governance",
+    "AI Compliance",
+    "AI Risk Management",
+    "AI Transparency",
+    "Human Oversight",
+    "Evidence Management",
+    "Traceability"
+
+  ],
+
+
+  "main_pages": [
+
+    "/",
+    "/demo",
+    "/your-firm",
+    "/faq",
+    "/resources",
+    "/blog",
+    "/article-50",
+    "/glossary",
+    "/offer"
+
+  ]
+
+}
