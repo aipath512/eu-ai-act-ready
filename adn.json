@@ -1,16 +1,105 @@
-EU AI Act Ready™
+{
+  "$schema": "https://5theelement.ai/schemas/adn.v1.json",
 
-        |
-        belongs to
+  "version": "1.0",
 
-AiVenture ADI Network
+  "domain": "https://eu-ai-act-ready.eu",
 
-        |
-        powered by
+  "node_name": "EU AI Act Ready™",
 
-AiVenture SRL
+  "node_role": "knowledge_platform",
 
-        |
-        technology flagship
+  "technology_category": "AI Delivery Infrastructure",
 
-5theelement.ai
+  "technology_acronym": "ADI",
+
+  "network_name": "AiVenture ADI Network",
+
+  "belongs_to_network": "https://5theelement.ai/adn.json",
+
+  "root_domain": "https://5theelement.ai",
+
+  "technology_partner": {
+
+    "name": "AiVenture SRL",
+
+    "website": "https://aiventure.ro",
+
+    "technology_flagship": "https://5theelement.ai",
+
+    "legal_id": "CUI 51415878",
+
+    "country": "RO",
+
+    "contact": "contact@5theelement.ai"
+
+  },
+
+  "platform": {
+
+    "name": "EU AI Act Ready™",
+
+    "purpose": "EU AI Act knowledge, readiness and operational compliance platform",
+
+    "repository": "RRVI™",
+
+    "repository_version": "1.0.2"
+
+  },
+
+  "knowledge_domains": [
+
+    "EU AI Act",
+
+    "AI Governance",
+
+    "AI Compliance",
+
+    "Risk Classification",
+
+    "Human Oversight",
+
+    "Article 50 Transparency",
+
+    "Evidence Management",
+
+    "Traceability"
+
+  ],
+
+  "related_semantic_models": [
+
+    "/ai.json",
+
+    "/entities.json",
+
+    "/rrvi-schema.json",
+
+    "/rrvi-ontology.json",
+
+    "/rrvi-glossary.md"
+
+  ],
+
+  "public_entry_points": [
+
+    "/",
+
+    "/demo",
+
+    "/offer",
+
+    "/faq",
+
+    "/resources",
+
+    "/blog",
+
+    "/glossary",
+
+    "/article-50"
+
+  ],
+
+  "status": "active"
+}
