@@ -1,96 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>EU AI Act Generator</title>
-
+<title>EU AI Act Search & Generator™</title>
 <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
+<header>
+<img src="assets/5thelement-logo.jpeg" alt="5thelement.AI">
+<button>Login</button>
+<button>☰</button>
+</header>
 
-<div class="page">
+<h1>EU AI Act<br>Search & Generator™</h1>
+<p>Search the Regulation. Build Readiness.</p>
 
-<h1>EU AI Act Generator</h1>
-
-
-<div class="search-area">
-
-<input 
-id="question"
-placeholder="Ask any question about EU AI Act..."
->
-
-<button onclick="ask()">
-Search
-</button>
-
+<div>
+<input placeholder="Ask anything about the EU AI Act">
+<button>ASK ⚡</button>
 </div>
 
-
-<div class="answer-box">
-
-<div id="answer">
-Your EU AI Act answer will appear here.
+<div>
+<a href="demo.html">🎯 DEMO</a>
+<a href="your-firm.html">🏢 YOUR FIRM</a>
 </div>
 
-</div>
+<section>
+<h2>EU AI Act Answers</h2>
+<div>Your answer appears here...</div>
+</section>
 
-
-</div>
-
-
-<script>
-
-const API =
-"https://eu-ai-act-search-api.aipath512.workers.dev/search?q=";
-
-
-async function ask(){
-
-const box =
-document.getElementById("answer");
-
-
-box.innerText =
-"Analysing EU AI Act evidence...";
-
-
-try {
-
-const r =
-await fetch(
-API +
-encodeURIComponent(
-document.getElementById("question").value
-)
-);
-
-
-const d =
-await r.json();
-
-
-box.innerText =
-d.answer || "No answer";
-
-
-}
-
-catch(e){
-
-box.innerText =
-e.message;
-
-}
-
-}
-
-</script>
-
-
+<footer>
+© 2026 5thelement.AI • EU AI Act Ready™
+</footer>
 </body>
 </html>
