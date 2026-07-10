@@ -1,1 +1,57 @@
-v 
+# EU AI Act Ready™
+
+## Identity
+
+EU AI Act Ready™ is an AI Governance Knowledge Platform focused on Regulation (EU) 2024/1689.
+
+
+## Purpose
+
+Help organizations understand, structure and demonstrate AI Act readiness.
+
+
+## Core Knowledge Areas
+
+- EU AI Act
+- AI Governance
+- AI Risk Classification
+- Human Oversight
+- Technical Documentation
+- AI Transparency
+- Article 50
+- Evidence Management
+- Traceability
+
+
+## Main Resources
+
+Homepage:
+https://eu-ai-act-ready.eu/
+
+FAQ:
+https://eu-ai-act-ready.eu/faq
+
+Resources:
+https://eu-ai-act-ready.eu/resources
+
+Glossary:
+https://eu-ai-act-ready.eu/glossary
+
+Article 50:
+https://eu-ai-act-ready.eu/article-50
+
+
+## Semantic Models
+
+RRVI Schema:
+https://eu-ai-act-ready.eu/rrvi-schema.json
+
+RRVI Ontology:
+https://eu-ai-act-ready.eu/rrvi-ontology.json
+
+
+## Technology Partner
+
+AiVenture SRL
+
+https://aiventure.ro
