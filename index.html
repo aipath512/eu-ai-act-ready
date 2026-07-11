@@ -8,7 +8,7 @@
 
 <meta
   name="description"
-  content="Search the EU AI Act and generate structured compliance readiness guidance with EU AI Act Ready™."
+  content="Ask the EU AI Act and generate structured compliance readiness guidance with EU AI Act Ready™."
 >
 
 <style>
@@ -217,13 +217,13 @@ main{
   box-shadow:0 14px 32px rgba(200,0,20,.2);
 }
 
-/* SEARCH */
+/* Ask */
 
-.search-wrap{
+.Ask-wrap{
   padding-top:42px;
 }
 
-.search-shell{
+.Ask-shell{
   display:grid;
   grid-template-columns:auto 1fr auto;
   gap:14px;
@@ -238,11 +238,11 @@ main{
     0 0 28px rgba(255,0,25,.12);
 }
 
-.search-icon{
+.Ask-icon{
   font-size:32px;
 }
 
-.search-shell input{
+.Ask-shell input{
   width:100%;
   min-width:0;
   border:0;
@@ -252,11 +252,11 @@ main{
   font-size:20px;
 }
 
-.search-shell input::placeholder{
+.Ask-shell input::placeholder{
   color:#8d8d8d;
 }
 
-.search-shell button{
+.Ask-shell button{
   min-height:54px;
   border:0;
   border-radius:14px;
@@ -301,7 +301,7 @@ main{
   background:var(--border);
 }
 
-/* POPULAR SEARCHES */
+/* POPULAR AskES */
 
 .popular{
   margin-top:44px;
@@ -442,12 +442,12 @@ footer{
     padding:13px 18px;
   }
 
-  .search-shell{
+  .Ask-shell{
     min-height:74px;
     padding-left:16px;
   }
 
-  .search-shell button{
+  .Ask-shell button{
     min-height:50px;
     padding:0 16px;
   }
@@ -575,16 +575,16 @@ footer{
     </div>
 
     <div class="hero-subtitle">
-      SEARCH &amp; GENERATOR™
+      Ask &amp; GENERATOR™
     </div>
 
   </section>
 
-  <section class="search-wrap">
+  <section class="Ask-wrap">
 
-    <div class="search-shell">
+    <div class="Ask-shell">
 
-      <span class="search-icon">
+      <span class="Ask-icon">
         ⌕
       </span>
 
@@ -625,7 +625,7 @@ footer{
   <section class="popular">
 
     <h2>
-      ↗ Popular Searches
+      ↗ Popular Askes
     </h2>
 
     <div class="chips">
@@ -703,14 +703,14 @@ footer{
   <span class="dot"></span>
 
   <span>
-    Search &amp; Generator™
+    Ask &amp; Generator™
   </span>
 
 </footer>
 <script>
 
 const API =
-"https://eu-ai-act-search-api.aipath512.workers.dev/search?q=";
+"https://eu-ai-act-Ask-api.aipath512.workers.dev/Ask?q=";
 
 const questionInput =
 document.getElementById("question");
