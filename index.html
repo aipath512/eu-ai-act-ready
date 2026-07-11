@@ -709,7 +709,108 @@ footer{
   </span>
 
 </footer>
+<script>
 
+const API =
+"https://eu-ai-act-search-api.aipath512.workers.dev/search?q=";
+
+const questionInput =
+document.getElementById("question");
+
+const answerBox =
+document.getElementById("answer");
+
+const askButton =
+document.getElementById("ask");
+
+
+async function ask(){
+
+const question =
+questionInput.value.trim();
+
+
+if(!question){
+
+answerBox.textContent =
+"Please ask a question first.";
+
+return;
+
+}
+
+
+askButton.disabled=true;
+askButton.textContent="ASKING...";
+
+
+try{
+
+const response =
+await fetch(
+API + encodeURIComponent(question)
+);
+
+
+const data =
+await response.json();
+
+
+const results =
+data.results || [];
+
+
+answerBox.innerHTML =
+results.map((x)=>
+
+`<div>
+${x.snippet || ""}
+</div>`
+
+).join("")
+
+||
+
+"No answer found.";
+
+
+}
+
+catch(error){
+
+answerBox.textContent =
+error.message;
+
+}
+
+
+askButton.disabled=false;
+askButton.textContent="ASK ⚡";
+
+}
+
+
+
+askButton.addEventListener(
+"click",
+ask
+);
+
+
+questionInput.addEventListener(
+"keydown",
+(e)=>{
+
+if(e.key==="Enter"){
+ask();
+}
+
+});
+
+
+</script>
+
+  
 <script>
 const questionInput = document.getElementById("question");
 const answerBox = document.getElementById("answer");
