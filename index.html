@@ -832,7 +832,17 @@ ask();
 }
 
 });
+document.querySelectorAll(".chips button").forEach(button => {
 
+  button.addEventListener("click", () => {
+
+    questionInput.value = button.dataset.q;
+
+    ask();
+
+  });
+
+});
 
 </script>
 
